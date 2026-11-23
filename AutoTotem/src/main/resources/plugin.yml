@@ -1,0 +1,14 @@
+name: AutoTotem
+version: 1.0.0
+main: kz.autototem.AutoTotem
+api-version: "1.21"
+description: Автоматически берёт следующий тотем бессмертия в левую руку после срабатывания.
+commands:
+  autototem:
+    description: Включить/выключить авто-тотем для себя
+    usage: /autototem
+    aliases: [at]
+permissions:
+  autototem.use:
+    description: Разрешает работу авто-тотема
+    default: true
